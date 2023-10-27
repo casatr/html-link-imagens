@@ -1,15 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nome da Loja</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
+    <img src="/atv/img/logo" alt="Logo da loja">
     <h1>Esporte Mania</h1>
-    
-    <a href="./atv/esporte/basquete/index.html">Basquete</a>
-    <a href="./atv/esporte/futebol/index.html">Futebol</a>
-    <a href="./atv/esporte/volei/index.html">Volei</a>
+    <nav>
+        <ul>
+            <li><a href="/atv/esporte/futebol/index.html">Futebol</a></li>
+            <li><a href="/atv/esporte/basquete/index.html">Basquete</a></li>
+            <li><a href="/atv/esporte/volei/index.html">Vôlei</a></li>
+
+            <!-- Adicione outros itens do menu, se necessário -->
+        </ul>
+    </nav>
+
+    <!-- Produtos em destaque -->
+    <section>
+        <h2>Produtos em Destaque</h2>
+        <a href="/atv/esporte/futebol/index.html">
+            <div class="produto">
+                <img src="./atv/img/blusa_futebol.jpg">
+                <h3>Blusa de Futebol</h3>
+                <p>Blusa de futebol de alta qualidade e confortável</p>
+                <p><span>R$100.00</span></p>
+            </div>
+        </a>
+
+        <a href="/atv/esporte/basquete/index.html">
+            <div class="produto">
+                <img src="./atv/img/blusa_basquete.webp">
+                <h3>Blusa de Basquete</h3>
+                <p>Blusa de basquete de alta qualidade e confortável</p>
+                <p><span>R$120.00</span></p>
+            </div>
+        </a>
+
+        <a href="/atv/esporte/volei/index.html">
+            <div class="produto">
+                <img src="./atv/img/blusa_volei.webp">
+                <h3>Blusa de Vôlei</h3>
+                <p>Blusa de vôlei de alta qualidade e confortável</p>
+                <p><span>R$120.00</span></p>
+            </div>
+        </a>
+    </section>
+
+    <!-- Descrição da loja -->
+    <section>
+        <h2>Descrição da Loja</h2>
+        <p>Nossa loja de esportes é apaixonada por proporcionar a melhor experiência esportiva para todos os nossos clientes. Fundada em 2005, nossa missão é promover um estilo de vida ativo e saudável por meio de produtos de alta qualidade e serviços excepcionais.</p>
+    </section>
+
+    <!-- Mapa do Google Maps -->
+    <section>
+        <h2>Mapa do Google Maps</h2>
+        <p>Encontre-nos facilmente no mapa abaixo:</p>
+        <!-- Aqui você pode incorporar o mapa do Google Maps com um código de incorporação, substituindo este exemplo. -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-90.123456!3d45.678901!4sSome+Place!5e0!3m2!1sen!2sus!4v1234567890123" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Formas de pagamento -->
+    <section>
+        <h2>Formas de Pagamento</h2>
+        <p>Aceitamos uma variedade de formas de pagamento para tornar suas compras mais convenientes:</p>
+        <ul>
+            <li>Cartões de Crédito (Visa, MasterCard, Amex)</li>
+            <li>PayPal</li>
+            <li>Dinheiro</li>
+            <li>Transferência Bancária</li>
+        </ul>
+    </section>
+
+    <!-- Proprietários -->
+    <section>
+        <h2>Proprietários</h2>
+        <p>Nossa loja é de propriedade e operação de um time dedicado de entusiastas esportivos:</p>
+        <ul>
+            <li>Raica</li>
+        </ul>
+    </section>
 </body>
 </html>

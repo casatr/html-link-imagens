@@ -1,0 +1,139 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo global da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Cabeçalho */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+}
+
+/* Produtos em destaque */
+section {
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 350px; /* Defina o tamanho desejado para as imagens, neste caso, 350px */
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* As imagens agora terão a largura máxima de 350px */
+}
+
+.produto h3 {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.produto p {
+    color: #666;
+    font-size: 14px;
+}
+
+.storm {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Estilização para as seções */
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização para os títulos das seções */
+section h2 {
+    font-size: 24px;
+    color: #0077b5;
+    margin-bottom: 10px;
+}
+
+/* Estilização para o texto das seções */
+section p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilização para a lista de formas de pagamento */
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilização para os itens da lista de formas de pagamento */
+section li {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilização para o mapa do Google Maps (iframe) */
+section iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+/* Estilização para a lista de proprietários */
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Estilização para os itens da lista de proprietários */
+section li {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
