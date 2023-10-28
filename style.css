@@ -4,13 +4,14 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
-/* Estilo global da página */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
-
-/* Cabeçalho */
+.logo{
+    width: 100px;
+    border-radius: 50%;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -38,7 +39,6 @@ nav a {
     font-weight: bold;
 }
 
-/* Produtos em destaque */
 section {
     margin: 20px auto;
     max-width: 1200px;
@@ -61,9 +61,8 @@ h2 {
 }
 
 .produto img {
-    max-width: 100%;
-    height: auto;
-    width: 100%; /* As imagens agora terão a largura máxima de 350px */
+    width: 350px; 
+    height: 350px;
 }
 
 .produto h3 {
@@ -136,4 +135,7 @@ section li {
     color: #333;
     font-size: 16px;
     line-height: 1.5;
+}
+.primg{
+    width: 600px;
 }
